@@ -16,9 +16,9 @@ def populate_make(entry):
     for n in line:
         s = n[0]
         if len(n[1]) > 0:
-            make, model = n[1], n[2]
+            make, year = n[1], n[2]
         
-        x.append((s, make, model))
+        x.append((s, make, year))
     return x
 
 
